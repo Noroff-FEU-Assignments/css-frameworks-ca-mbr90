@@ -1,9 +1,10 @@
 import React from "react";
-import "./App.css";
+import "./sass/style.scss";
 import { Link, Route, Routes } from "react-router-dom";
-import Home from "./components/Home";
-import News from "./components/News";
-import Contact from "./components/Contact";
+import Home from "./pages/Home";
+import News from "./pages/News";
+import Contact from "./pages/Contact";
+import Footer from "./components/Footer";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
@@ -46,6 +47,7 @@ function App() {
         <Route path="/news" element={<News />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
+      <Footer />
     </>
   );
 }

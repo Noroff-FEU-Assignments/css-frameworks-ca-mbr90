@@ -1,0 +1,17 @@
+// Custom
+$color-primary: #E92569;
+
+
+// Bootstrap
+$theme-colors: (
+  "primary":    $color-primary
+);
+
+$font-family-base:"Lato", sans-serif;
+$headings-font-family: "Playfair Display", serif;
+
+
+
+
+@import "~bootstrap/scss/bootstrap";
+@import "./partials/typography"

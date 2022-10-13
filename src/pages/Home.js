@@ -2,12 +2,16 @@ import React from "react";
 import Tab from "react-bootstrap/Tab";
 import Tabs from "react-bootstrap/Tabs";
 import Accordion from "react-bootstrap/Accordion";
+import Carouzel from "../components/Carouzel";
+import Container from "react-bootstrap/Container";
+
 function Home() {
   return (
     <>
-      <div class="p-5 mb-4 text-white bg-dark rounded-3">
-        <div class="container-fluid py-5"></div>
-      </div>
+      {/* <Container>
+        <Carouzel />
+      </Container> */}
+
       <h2>We do YAY things</h2>
       <p>
         Nam tincidunt, sapien nec congue porta, tellus risus ullamcorper mi, a
@@ -96,20 +100,6 @@ function Home() {
           </Accordion.Body>
         </Accordion.Item>
       </Accordion>
-      <div class="container">
-        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-          <p class="col-md-4 mb-0 text-muted">Vimeo and Youtube icons</p>
-
-          <a
-            href="/"
-            class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none"
-          >
-            hello@yay.com
-          </a>
-
-          <p class="nav col-md-4 justify-content-end">Copyright 2020</p>
-        </footer>
-      </div>
     </>
   );
 }
