@@ -3,14 +3,11 @@ import Tab from "react-bootstrap/Tab";
 import Tabs from "react-bootstrap/Tabs";
 import Accordion from "react-bootstrap/Accordion";
 import Carouzel from "../components/Carouzel";
-import Container from "react-bootstrap/Container";
 
 function Home() {
   return (
     <>
-      {/* <Container>
-        <Carouzel />
-      </Container> */}
+      <Carouzel />
 
       <h2>We do YAY things</h2>
       <p>

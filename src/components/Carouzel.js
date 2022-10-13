@@ -1,22 +1,15 @@
 import React from "react";
-import Carousel from "react-bootstrap/Carousel";
+import MyBackgroundImage1 from "../images/carousel/carousel-1.jpg";
 
 function Carouzel() {
   return (
-    <div class="container">
-      <Carousel>
-        <Carousel.Item>
-          <div
-            style={{
-              backgroundImage:
-                "url(../../public/images/carousel/carousel-1.jpg)",
-            }}
-          ></div>
-        </Carousel.Item>
-        <Carousel.Item></Carousel.Item>
-        <Carousel.Item></Carousel.Item>
-      </Carousel>
-    </div>
+    <div
+      style={{
+        backgroundImage: `url(${MyBackgroundImage1})`,
+        width: 660,
+        height: "auto",
+      }}
+    ></div>
   );
 }
 
