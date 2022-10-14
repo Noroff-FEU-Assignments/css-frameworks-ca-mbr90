@@ -8,7 +8,6 @@ function Home() {
   return (
     <>
       <Carouzel />
-
       <h2>We do YAY things</h2>
       <p>
         Nam tincidunt, sapien nec congue porta, tellus risus ullamcorper mi, a

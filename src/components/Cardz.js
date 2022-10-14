@@ -8,6 +8,7 @@ function Cardz() {
       <div className="container p-2">
         <Card>
           <Card.Body>
+            <Card.Img src="../images/news/news-1.jpg" />
             <Card.Title>Nunc porttitor vel</Card.Title>
             <Card.Text>Nunc malesuada eget est fringilla dapibus.</Card.Text>
             <Button variant="primary">More</Button>

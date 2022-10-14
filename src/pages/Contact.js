@@ -5,31 +5,33 @@ import Form from "react-bootstrap/Form";
 function Contact() {
   return (
     <>
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-6 order-lg-2">
-            <div class="container">
-              <div class="container">
-                <h4>hello@yay.com</h4>
+      <div className="container">
+        <div className="row">
+          <div className="col-lg-6 order-lg-2">
+            <div className="container">
+              <div className="container">
+                <i className="fa-solid fa-envelope"></i> <p>hello@yay.com</p>
               </div>
-              <div class="container">
-                <h4>123 456 7890</h4>
+              <div className="container">
+                <i className="fa-solid fa-phone-flip"></i>
+                <p>123 456 7890</p>
               </div>
 
-              <div class="container">
-                <div class="col">
-                  <h4>123 Some Street </h4>
-                  <h4>Somewhere</h4>
-                  <h4>Some City</h4>
-                  <h4> 10000</h4>
+              <div className="container">
+                <i className="fa-sharp fa-solid fa-location-dot"></i>
+                <div className="col">
+                  <p>123 Some Street</p>
+                  <p>Somewhere</p>
+                  <p>Some City</p>
+                  <p>1000</p>
                 </div>
               </div>
             </div>
           </div>
 
-          <div class="col-lg-6">
+          <div className="col-lg-6">
             <h2>Submit your details</h2>
-            <div class="container">
+            <div className="container">
               <Form>
                 <Form.Label>Name</Form.Label>
                 <Form.Control type="Name" />
@@ -37,15 +39,12 @@ function Contact() {
                 <Form.Control type="Email" />
                 <Form.Label>Website</Form.Label>
                 <Form.Control type="Website" />
-
                 <Form.Label>Message</Form.Label>
                 <Form.Control as="textarea" style={{ height: "100px" }} />
-
                 <Form.Check
                   type="checkbox"
                   label="Allow us to sell your personal details to whomever we want"
                 />
-
                 <Button variant="primary" type="submit">
                   Submit
                 </Button>
