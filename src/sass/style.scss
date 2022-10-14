@@ -1,10 +1,13 @@
 // Custom
-$color-primary: #E92569;
+$colours: ( "highlight": #E92569,   "background": #EFEFEF, "hvit": #FFFFFF);
 
+@function getColour($colour) {      
+  @return map-get($colours, $colour);
+  }
 
 // Bootstrap
 $theme-colors: (
-  "primary":    $color-primary
+  "primary":  getColour(highlight)
 );
 
 $font-family-base:"Lato", sans-serif;
@@ -12,7 +15,14 @@ $headings-font-family: "Playfair Display", serif;
 
 
 
-
 @import "~bootstrap/scss/bootstrap";
+@import "./partials/navz";
 @import "./partials/typography";
 @import "./partials/cardz";
+@import "./partials/carouzel";
+@import "./partials/tabz";
+
+body {
+  background-color: getColour(background);
+}
+

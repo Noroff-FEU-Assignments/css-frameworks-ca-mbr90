@@ -37,7 +37,9 @@ function App() {
                 className="me-2"
                 aria-label="Search"
               />
-              <Button variant="outline-success">Go</Button>
+              <Button className="nav__button" variant="outline-success">
+                Go
+              </Button>
             </Form>
           </Navbar.Collapse>
         </Container>

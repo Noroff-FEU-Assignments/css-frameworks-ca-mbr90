@@ -23,9 +23,9 @@ function Accordionz() {
               alt="old television"
             />
             <div>
-              SHARE{" "}
-              <i class="fa-brands fa-facebook-f">
-                <i class="fa-brands fa-twitter"></i>
+              SHARE
+              <i className="fa-brands fa-facebook-f">
+                <i className="fa-brands fa-twitter"></i>
               </i>
             </div>
           </Accordion.Body>
@@ -48,9 +48,8 @@ function Accordionz() {
               alt="old television"
             />
             <div>
-              SHARE{" "}
-              <i class="fa-brands fa-facebook-f">
-                <i class="fa-brands fa-twitter"></i>
+              <i className="fa-brands fa-facebook-f">
+                <i className="fa-brands fa-twitter"></i>
               </i>
             </div>
           </Accordion.Body>
@@ -74,8 +73,8 @@ function Accordionz() {
             />
             <div>
               SHARE{" "}
-              <i class="fa-brands fa-facebook-f">
-                <i class="fa-brands fa-twitter"></i>
+              <i className="fa-brands fa-facebook-f">
+                <i className="fa-brands fa-twitter"></i>
               </i>
             </div>
           </Accordion.Body>

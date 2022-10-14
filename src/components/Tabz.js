@@ -27,8 +27,8 @@ function Tabz() {
           </p>
           <div>
             SHARE{" "}
-            <i class="fa-brands fa-facebook-f">
-              <i class="fa-brands fa-twitter"></i>
+            <i className="fa-brands fa-facebook-f">
+              <i className="fa-brands fa-twitter"></i>
             </i>
           </div>
         </Tab>
@@ -49,8 +49,8 @@ function Tabz() {
           </p>
           <div>
             SHARE
-            <i class="fa-brands fa-facebook-f">
-              <i class="fa-brands fa-twitter"></i>
+            <i className="fa-brands fa-facebook-f">
+              <i className="fa-brands fa-twitter"></i>
             </i>
           </div>
         </Tab>
@@ -71,8 +71,8 @@ function Tabz() {
           </p>
           <div>
             SHARE
-            <i class="fa-brands fa-facebook-f">
-              <i class="fa-brands fa-twitter"></i>
+            <i className="fa-brands fa-facebook-f">
+              <i className="fa-brands fa-twitter"></i>
             </i>
           </div>
         </Tab>
