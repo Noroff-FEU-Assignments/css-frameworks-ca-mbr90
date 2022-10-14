@@ -1,11 +1,16 @@
 // Custom
-$colours: ( "highlight": #E92569,   "background": #EFEFEF, "hvit": #FFFFFF);
+$colours: ( "highlight": #E92569,   "background": #E9E9E9, "hvit": #FFFFFF, "gra": #767676, "navi": #EFEFEF, "sort": #0A0A0A);
 
 @function getColour($colour) {      
   @return map-get($colours, $colour);
   }
 
+  $pagination-border-radius: 0;
+
+  
+
 // Bootstrap
+$blue: getColour(highlight);
 $theme-colors: (
   "primary":  getColour(highlight)
 );
@@ -21,8 +26,21 @@ $headings-font-family: "Playfair Display", serif;
 @import "./partials/cardz";
 @import "./partials/carouzel";
 @import "./partials/tabz";
+@import "./partials/footerz";
+
+
+html, body {
+  height: 100%;
+}
 
 body {
   background-color: getColour(background);
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  min-height: 100vh;
+  flex: 1 0 auto;
 }
 

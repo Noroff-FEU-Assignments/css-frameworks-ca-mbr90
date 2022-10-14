@@ -5,5 +5,17 @@
 .cardz__image {
     width: 264px;
     height: 190px;
-    
+}
+
+.card-title {
+    font-weight: bold;
+    color: getColour(sort);
+}
+
+.page-item {
+    border: solid 1px getColour(highlight);
+}
+
+.page-link {
+    color: getColour(highlight);
 }

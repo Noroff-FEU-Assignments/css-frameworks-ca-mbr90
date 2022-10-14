@@ -7,7 +7,7 @@ import Container from "react-bootstrap/Container";
 
 function Home() {
   return (
-    <>
+    <main>
       <Carouzel />
       <Container>
         <h2>We do YAY things</h2>
@@ -19,12 +19,12 @@ function Home() {
           euismod, pretium lacinia magna. Donec mi orci, sollicitudin in luctus
           a, varius eget massa.
         </p>
-        <div className="d-none d-md-block">
+        <div className="d-none d-lg-block">
           <Tabz />
         </div>
         <Accordionz />
       </Container>
-    </>
+    </main>
   );
 }
 

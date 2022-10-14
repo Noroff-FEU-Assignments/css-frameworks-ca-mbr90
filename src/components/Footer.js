@@ -3,23 +3,25 @@ import React from "react";
 function Footer() {
   return (
     <>
-      <div className="container">
-        <footer className="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-          <p className="col-md-4 mb-0 text-muted">
-            <i className="fa-brands fa-vimeo-v"></i>
-            <i className="fa-brands fa-youtube"></i>
-          </p>
+      <footer className="d-flex flex-wrap py-2 justify-content-center ">
+        <div className="container row justify-content-center align-items-center">
+          <div className="footer__item col-12 col-md-4 " id="footer__paragraph">
+            <i className=" footer__item--icon fa-brands fa-vimeo-v"></i>
+            <i className=" footer__item--icon fa-brands fa-youtube"></i>
+          </div>
 
           <a
             href="/"
-            className="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none"
+            className="footer__item text-decoration-none col-6 col-md-4"
           >
             hello@yay.com
           </a>
 
-          <p className="nav col-md-4 justify-content-end">Copyright 2020</p>
-        </footer>
-      </div>
+          <p className="footer__item nav  justify-content-end col-6 col-md-4">
+            Copyright 2020
+          </p>
+        </div>
+      </footer>
     </>
   );
 }

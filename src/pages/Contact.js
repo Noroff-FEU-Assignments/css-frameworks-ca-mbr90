@@ -4,7 +4,7 @@ import Form from "react-bootstrap/Form";
 
 function Contact() {
   return (
-    <>
+    <main>
       <div className="container">
         <div className="row">
           <div className="col-lg-6 order-lg-2">
@@ -53,7 +53,7 @@ function Contact() {
           </div>
         </div>
       </div>
-    </>
+    </main>
   );
 }
 

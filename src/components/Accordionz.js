@@ -4,7 +4,7 @@ import Accordion from "react-bootstrap/Accordion";
 function Accordionz() {
   return (
     <>
-      <Accordion defaultActiveKey="0" className="d-md-none">
+      <Accordion defaultActiveKey="0" className="d-lg-none">
         <Accordion.Item eventKey="0">
           <Accordion.Header>First</Accordion.Header>
           <Accordion.Body>
