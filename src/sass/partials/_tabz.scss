@@ -10,11 +10,15 @@
     color: getColour(highlight);
   }
 
-
-  .tab__container {
-    padding: 20px;
+  .tabz__wrap {
+    margin-top: 2.5em;
   }
 
+
+  .tab__container {
+    padding: 30px;
+    padding-bottom: 60px;
+  }
 
   .tab__icons i {
     padding: 10px;

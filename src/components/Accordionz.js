@@ -19,7 +19,7 @@ function Accordionz() {
             </p>
             <img
               className="cardz__image"
-              src="../images/news/news-1.jpg"
+              src="../images/tab/tab-1.jpg"
               alt="old television"
             />
             <div>
@@ -44,7 +44,7 @@ function Accordionz() {
             </p>
             <img
               className="cardz__image"
-              src="../images/news/news-2.jpg"
+              src="../images/tab/tab-2.jpg"
               alt="old television"
             />
             <div>
@@ -68,7 +68,7 @@ function Accordionz() {
             </p>
             <img
               className="cardz__image"
-              src="../images/news/news-3.jpg"
+              src="../images/tab/tab-3.jpg"
               alt="old television"
             />
             <div>

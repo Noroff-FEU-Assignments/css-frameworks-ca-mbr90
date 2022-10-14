@@ -9,7 +9,7 @@ function Home() {
   return (
     <main>
       <Carouzel />
-      <Container>
+      <Container className="message__wrap">
         <h2>We do YAY things</h2>
         <p>
           Nam tincidunt, sapien nec congue porta, tellus risus ullamcorper mi, a
@@ -19,7 +19,7 @@ function Home() {
           euismod, pretium lacinia magna. Donec mi orci, sollicitudin in luctus
           a, varius eget massa.
         </p>
-        <div className="d-none d-lg-block">
+        <div className="tabz__wrap d-none d-lg-block">
           <Tabz />
         </div>
         <Accordionz />
