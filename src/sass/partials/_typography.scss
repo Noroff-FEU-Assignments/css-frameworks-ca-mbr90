@@ -1,0 +1,19 @@
+ h2,  .navbar-brand{
+    color: getColour(highlight);
+};
+
+.navbar-brand {
+    font-family: "playfair";
+    font-style: italic;
+    font-weight: 600;
+
+}
+
+p {
+    color: getColour(gra);
+}
+
+
+.message__wrap {
+    margin-top: 2.5em;
+}

@@ -1,0 +1,30 @@
+footer {
+    background-color: white;
+    margin: 0 !important;
+}
+
+.footer__item {
+    color: getColour(gra);
+}
+
+
+.footer__item--icon {
+   font-size: 32px;
+    margin-right: 20px;
+}
+
+// .footer__item--copyright {
+// margin-right: 20px;
+// }
+
+
+@media only screen and (max-width: 768px) { 
+
+#footer__paragraph {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-self: center;
+    align-items: center;
+}
+}

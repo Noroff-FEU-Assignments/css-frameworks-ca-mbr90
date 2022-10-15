@@ -1,0 +1,21 @@
+.carousel-indicators button {
+height: 25px !important;
+width: 25px !important;
+background-color: white !important;
+opacity: 1 !important;
+margin-left: 10px !important;
+margin-right: 10px !important;
+}
+
+.carousel-indicators .active {
+background-color: getColour(highlight) !important;
+}
+
+.carousel-control-prev, .carousel-control-next {
+    display: none;
+}
+
+.carousel-inner {
+    height: 30%;
+    max-height: 500px ;
+}
