@@ -6,7 +6,7 @@ import Container from "react-bootstrap/Container";
 function News() {
   return (
     <main>
-      <Container>
+      <Container className="message__wrap">
         <h2>News</h2>
         <Paginate />
         <Cardz />

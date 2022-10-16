@@ -15,7 +15,9 @@ function Cardz() {
             <Card.Body>
               <Card.Title>Nunc porttitor vel</Card.Title>
               <Card.Text>Nunc malesuada eget est fringilla dapibus.</Card.Text>
-              <Button variant="primary">More</Button>
+              <Button className="card__button" variant="primary">
+                MORE
+              </Button>
             </Card.Body>
           </Card>
         </div>
@@ -29,7 +31,9 @@ function Cardz() {
             <Card.Body>
               <Card.Title>Nunc porttitor vel</Card.Title>
               <Card.Text>Nunc malesuada eget est fringilla dapibus.</Card.Text>
-              <Button variant="primary">More</Button>
+              <Button className="card__button" variant="primary">
+                MORE
+              </Button>
             </Card.Body>
           </Card>
         </div>
@@ -42,7 +46,9 @@ function Cardz() {
             <Card.Body>
               <Card.Title>Nunc porttitor vel</Card.Title>
               <Card.Text>Nunc malesuada eget est fringilla dapibus.</Card.Text>
-              <Button variant="primary">More</Button>
+              <Button className="card__button" variant="primary">
+                MORE
+              </Button>
             </Card.Body>
           </Card>
         </div>
@@ -55,7 +61,9 @@ function Cardz() {
             <Card.Body>
               <Card.Title>Nunc porttitor vel</Card.Title>
               <Card.Text>Nunc malesuada eget est fringilla dapibus.</Card.Text>
-              <Button variant="primary">More</Button>
+              <Button className="card__button" variant="primary">
+                MORE
+              </Button>
             </Card.Body>
           </Card>
         </div>
@@ -71,7 +79,9 @@ function Cardz() {
             <Card.Body>
               <Card.Title>Nunc porttitor vel</Card.Title>
               <Card.Text>Nunc malesuada eget est fringilla dapibus.</Card.Text>
-              <Button variant="primary">More</Button>
+              <Button className="card__button" variant="primary">
+                MORE
+              </Button>
             </Card.Body>
           </Card>
         </div>
@@ -84,7 +94,9 @@ function Cardz() {
             <Card.Body>
               <Card.Title>Nunc porttitor vel</Card.Title>
               <Card.Text>Nunc malesuada eget est fringilla dapibus.</Card.Text>
-              <Button variant="primary">More</Button>
+              <Button className="card__button" variant="primary">
+                MORE
+              </Button>
             </Card.Body>
           </Card>
         </div>
@@ -97,7 +109,9 @@ function Cardz() {
             <Card.Body>
               <Card.Title>Nunc porttitor vel</Card.Title>
               <Card.Text>Nunc malesuada eget est fringilla dapibus.</Card.Text>
-              <Button variant="primary">More</Button>
+              <Button className="card__button" variant="primary">
+                MORE
+              </Button>
             </Card.Body>
           </Card>
         </div>
@@ -110,7 +124,9 @@ function Cardz() {
             <Card.Body>
               <Card.Title>Nunc porttitor vel</Card.Title>
               <Card.Text>Nunc malesuada eget est fringilla dapibus.</Card.Text>
-              <Button variant="primary">More</Button>
+              <Button className="card__button" variant="primary">
+                MORE
+              </Button>
             </Card.Body>
           </Card>
         </div>

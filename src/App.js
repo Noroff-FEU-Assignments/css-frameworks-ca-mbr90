@@ -10,6 +10,7 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/Button";
+import { NavLink } from "react-router-dom";
 
 function App() {
   return (
@@ -20,21 +21,21 @@ function App() {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
-              <Link to="/" className="nav-link">
+              <NavLink to="/" className="nav-link">
                 Home
-              </Link>
-              <Link to="/news" className="nav-link">
+              </NavLink>
+              <NavLink to="/news" className="nav-link">
                 News
-              </Link>
-              <Link to="/contact" className="nav-link">
+              </NavLink>
+              <NavLink to="/contact" className="nav-link">
                 Contact
-              </Link>
+              </NavLink>
             </Nav>
             <Form className="d-flex">
               <Form.Control
                 type="search"
                 placeholder="Search"
-                className="me-2"
+                // className="me-2"
                 aria-label="Search"
               />
               <Button className="nav__button" variant="outline-success">

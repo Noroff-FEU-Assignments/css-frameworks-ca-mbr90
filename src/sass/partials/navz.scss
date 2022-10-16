@@ -1,6 +1,7 @@
 .nav__button {
     background-color: getColour(highlight);
     color: getColour(hvit);
+    border-radius: 0 3px 3px 0 !important;
 }
 
 .navbar {
@@ -9,4 +10,8 @@
 
 .nav-link {
     color: getColour(sort);
+}
+
+.active {
+    background-color: getColour(hvit);
 }

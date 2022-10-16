@@ -1,0 +1,67 @@
+.contact__container {
+    padding-top: 2.5em;
+}
+
+.contact__text, .contact__info--icon, .form-label, .form-check-label {
+    color: getColour(gra);
+}
+
+
+.contact__info--icon {
+    font-size: 28px;
+}
+
+.contact__text--adress {
+    margin: 0 !important;
+}
+
+
+.form__container {
+    background-color: getColour(navi);
+    padding: 1em;
+}
+
+.form__wrapper {
+    margin-bottom: 1em;
+}
+.form__header {
+    margin-top: 2.5em;
+} 
+
+.form-check {
+    align-items: center;
+}
+
+.form-check-input {
+    background-color: getColour(highlight);
+    height: 25px;
+    width: 25px;
+    margin-right: 1em;
+}
+
+
+.form__button {
+    background-color: getColour(gra);
+    color: getColour(hvit);
+    border: none !important;
+    width: 100%;
+    margin-top: 1em;
+}
+
+.email__label {
+    background-color: getColour(lysgra);
+    color: getColour(hvit);
+    padding: 10px;
+   
+}
+
+.email__input {
+    padding-left: 0 !important;
+}
+
+.email__wrapper {
+    display:flex;
+    justify-content: center;
+   padding-left: 10px;
+   padding-right: 10px;
+}

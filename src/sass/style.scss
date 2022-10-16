@@ -1,24 +1,28 @@
 // Custom
-$colours: ( "highlight": #E92569,   "background": #E9E9E9, "hvit": #FFFFFF, "gra": #767676, "navi": #EFEFEF, "sort": #0A0A0A);
+$colours: (
+  "highlight": #e92569,
+  "background": #e5e5e5,
+  "hvit": #ffffff,
+  "gra": #767676,
+  "lysgra": #C7C7C7,
+  "navi": #efefef,
+  "sort": #0a0a0a,
+);
 
-@function getColour($colour) {      
+@function getColour($colour) {
   @return map-get($colours, $colour);
-  }
+}
 
-  $pagination-border-radius: 0;
-
-  
+$pagination-border-radius: 0;
 
 // Bootstrap
 $blue: getColour(highlight);
 $theme-colors: (
-  "primary":  getColour(highlight)
+  "primary": getColour(highlight),
 );
 
-$font-family-base:"Lato", sans-serif;
+$font-family-base: "Lato", sans-serif;
 $headings-font-family: "Playfair Display", serif;
-
-
 
 @import "~bootstrap/scss/bootstrap";
 @import "./partials/navz";
@@ -26,15 +30,16 @@ $headings-font-family: "Playfair Display", serif;
 @import "./partials/cardz";
 @import "./partials/carouzel";
 @import "./partials/tabz";
+@import "./partials/contact";
 @import "./partials/footerz";
 
-
-html, body {
+html,
+body {
   height: 100%;
 }
 
 body {
-  background-color: getColour(background);
+  background: radial-gradient(getColour(hvit), getColour(background));
   display: flex;
   flex-direction: column;
 }
@@ -43,4 +48,3 @@ main {
   min-height: 100vh;
   flex: 1 0 auto;
 }
-
